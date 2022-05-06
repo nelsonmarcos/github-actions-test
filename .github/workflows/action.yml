@@ -9,7 +9,7 @@ jobs:
           pwd
           ls -a
       - name: checkout
-        uses: action/checkout@v1
+        uses: actions/checkout@v1
       - name: List files after checkout
         run: |
           pwd
