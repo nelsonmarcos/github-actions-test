@@ -1,14 +1,13 @@
 name: Actions  Workflow
-
+description: Saying hello to the input
 on: [push]
-
 jobs:
   run-git-hub-action:
     runs-on: ubuntu-latest
     steps:
       - name: Simple JS Actions
         id: greet
-        uses: actions/hello-world-javascript-action@v1.1
+        uses: actions/hello-world-javascript-action@v1
         with: 
           who-to-greet: John
       - name: Log greeting time
