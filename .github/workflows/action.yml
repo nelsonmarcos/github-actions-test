@@ -1,5 +1,4 @@
 name: Actions  Workflow
-description: Saying hello to the input
 on: [push]
 jobs:
   run-git-hub-action:
