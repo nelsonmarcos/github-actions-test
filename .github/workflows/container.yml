@@ -1,5 +1,5 @@
 Name: Container
-  on: push
+on: push
 
 jobs:
   node-docker:
